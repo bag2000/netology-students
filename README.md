@@ -1,1 +1,5 @@
-# netology-students
+# Домашнее задание к занятию "Работа с SQL. Создание БД" - Поляков Роман
+
+## Задание 1
+### Изображение в формате PNG, содержащее схему БД
+![Скрин1](https://github.com/bag2000/netology-students/blob/main/База.drawio.png)
