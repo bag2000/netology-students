@@ -1,7 +1,7 @@
 -- Год
 CREATE TABLE IF NOT EXISTS Year (
 	id SERIAL PRIMARY KEY,
-	year SMALLINT NOT NULL
+	year SMALLINT NOT NULL UNIQUE
 );
 
 -- Альбом
@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS SingerAlbum (
 -- Жанр
 CREATE TABLE IF NOT EXISTS Genre (
 	id SERIAL PRIMARY KEY,
-	name VARCHAR(80) NOT NULL
+	name VARCHAR(80) NOT NULL UNIQUE
 );
 
 -- Посредник Исполнитель Жанр
