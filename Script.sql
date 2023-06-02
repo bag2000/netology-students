@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS Genre (
 );
 
 -- Посредник Исполнитель Жанр
-CREATE TABLE IF NOT EXISTS SingerAlbum (
+CREATE TABLE IF NOT EXISTS SingerGenre (
 	id SERIAL PRIMARY KEY,
 	singer_id INTEGER NOT NULL REFERENCES Singer(id),
 	genre_id INTEGER NOT NULL REFERENCES Genre(id)
